@@ -1,0 +1,211 @@
+.logobody{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 9%;
+    margin-left: 850px;
+
+}
+
+.txtlogo{
+    text-align: center;
+    background-color: #f0f0f0; /* Cor de fundo do banner */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    text-align: center; /* Alinhamento do texto ao centro */
+    border: 2px solid #ccc; /* Borda do banner */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 300px; /* Largura do banner */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px); /* Ajuste conforme necessário */
+}
+
+.main-container--2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px); /* Ajuste conforme necessário */
+}
+
+.btn_inicio {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn_inicio:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.nume {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.nomes{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Container para os cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo base do card */
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo da imagem do card */
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Estilo do conteúdo do card */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Estilo do título do card */
+  .card-content h3 {
+    margin-top: 0;
+  }
+  
+  /* Estilo do botão do card */
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+/* Estilos gerais */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    background: url("../chatbot/images/fundo.jpeg");
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+
+.header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo-img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+/* Estilos das seções */
+
+.section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.section p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
